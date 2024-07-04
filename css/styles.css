@@ -211,7 +211,7 @@ width:250px;
 }
 
 .logo { 
- font-size:40px;  font-weight:  cursor: pointer;
+ font-size:40px;   cursor: pointer;
 background: linear-gradient(to right, #FF0000, #FFFF00, #00FF00, #0000FF, #FF00FF);
 background-clip: text;
 color: transparent;
@@ -234,6 +234,99 @@ width:20px;
     font-size: 17px;
     font-weight: 500;
   }
+
+  .midfooter { display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    margin-top: 10rem;
+    background-color: #f4d5ff;
+}
+
+.notes {display: flex;
+gap: 1rem;
+flex-direction: column;
+font-weight: bold;
+padding-bottom: 2rem;
+padding-left: 2rem;
+background-color: #f4d5ff;}
+
+.imgwidth {
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+.connectnow {
+
+    justify-content: center;
+    background-color: gray;
+    color: gold;
+    padding: 10px;
+    border-radius: 10px;
+align-self: center;
+    margin-top: 1rem;
+    
+    
+    
+    
+
+        
+    
+}
+
+
+.myblog {display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    justify-content: center;
+    
+    
+    }
+    
+    
+    .ourinbox { padding-top: 7px;
+    padding-left: 6rem;
+    font-size: small;
+  
+    }
+    
+    .email {
+        border: 1px solid gray;
+        color: gray;
+        padding-left: 1rem;
+        margin-top: 1rem;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        align-items: flex-start;
+        margin-left: 5px;
+    font-size: small;
+    }
+    
+    
+    
+    .subscribe { display: flex;
+        border: 1.5px solid black;
+        font-size: small;
+        margin-top: 1rem;
+        padding-top :7px;
+        padding-bottom: 7px ;
+        margin-left: 5px;
+        padding-left: 12rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+    
+
+
+
+
+
+
+
+
 
 
 
